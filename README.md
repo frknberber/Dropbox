@@ -51,10 +51,13 @@ Notlar:
 Ctrl-C için sinyal handler edilmiştir.
 Loglama işlemi yapılmaktadır.
 Test için Script oluşturulmuştur.
+
 Test Edilmesi
 İlk olarak klasör içindeki -make komutu çalıştırılır. Bu komut dan sonra script i çalıştırmak için
 - chmod +x Dropbox.sh
 - ./Dropbox.sh
+- 
 Komutları çalıştırılır. Bu son komutdan sonra 5 test aşamasından oluşan süreç başlar. İlk teste başlamak için herhangi bir değere basılır.
+
 Test1 de : ServerY de 2 PoolPro ve 2 PoolForward ve 4 saniye, ServerZ de 2 PoolPro ve 3 saniye argümanları ile 3 client başlatılmış ve doğru sonuçlar alınmıştır.
 Test2 de : ServerY de 2 PoolPro ve 2 PoolForward ve 3 saniye, ServerZ de 2 PoolPro ve 2 saniye argümanları ile 5 client başlatılmış ve doğru sonuçlar alınmıştır. 5. Gelen client yer bulamadığı için error vermiştir.
